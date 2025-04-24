@@ -1,0 +1,263 @@
+\doxysection{Air\+Quality\+Win\+Gui.\+cpp File Reference}
+\hypertarget{_air_quality_win_gui_8cpp}{}\label{_air_quality_win_gui_8cpp}\index{AirQualityWinGui.cpp@{AirQualityWinGui.cpp}}
+
+
+Aplikacja do monitorowania jakości powietrza w Polsce.  
+
+
+{\ttfamily \#include $<$windows.\+h$>$}\newline
+{\ttfamily \#include $<$string$>$}\newline
+{\ttfamily \#include $<$vector$>$}\newline
+{\ttfamily \#include $<$set$>$}\newline
+{\ttfamily \#include $<$sstream$>$}\newline
+{\ttfamily \#include $<$iomanip$>$}\newline
+{\ttfamily \#include $<$algorithm$>$}\newline
+{\ttfamily \#include "{}Api\+Client.\+h"{}}\newline
+\doxysubsubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{_air_quality_win_gui_8cpp_a80d4e97abdaf4808d6fed8d0f41dc53d}{IDC\+\_\+\+COMBO\+\_\+\+STATIONS}}~1001
+\item 
+\#define \mbox{\hyperlink{_air_quality_win_gui_8cpp_ab69b125a922699f767357b17ce2f9942}{IDC\+\_\+\+COMBO\+\_\+\+METRICS}}~1002
+\item 
+\#define \mbox{\hyperlink{_air_quality_win_gui_8cpp_a835bc41efa9fc71d0dd286b6fc4db2a6}{IDC\+\_\+\+BUTTON\+\_\+\+ANALYZE}}~1003
+\item 
+\#define \mbox{\hyperlink{_air_quality_win_gui_8cpp_ad657c653fcb4637760df6f3c425085df}{IDC\+\_\+\+EDIT\+\_\+\+ANALYSIS}}~1005
+\item 
+\#define \mbox{\hyperlink{_air_quality_win_gui_8cpp_a442814053fee5302172ff8f8b02f2af9}{IDC\+\_\+\+BUTTON\+\_\+\+CHART}}~1006
+\item 
+\#define \mbox{\hyperlink{_air_quality_win_gui_8cpp_ac3b839799cb45d091fe3c84e23c08584}{IDC\+\_\+\+EDIT\+\_\+\+START\+\_\+\+DATE}}~1007
+\item 
+\#define \mbox{\hyperlink{_air_quality_win_gui_8cpp_a05c15fa479cf9717cb845e66c3c9080f}{IDC\+\_\+\+EDIT\+\_\+\+END\+\_\+\+DATE}}~1008
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+std\+::wstring \mbox{\hyperlink{_air_quality_win_gui_8cpp_a53fe58a967f69dbfc2340f9bb9ca3af7}{string\+To\+Wstring}} (const std\+::string \&str)
+\item 
+bool \mbox{\hyperlink{_air_quality_win_gui_8cpp_a01249e44ab718a1fc9ae90e51b25c541}{is\+Within\+Range}} (const std\+::string \&date, const std\+::string \&start, const std\+::string \&end)
+\item 
+std\+::vector$<$ \mbox{\hyperlink{struct_measurement}{Measurement}} $>$ \mbox{\hyperlink{_air_quality_win_gui_8cpp_abeb32291888fb01625549172cbf3ff3a}{Filter\+Measurements}} (const std\+::string \&metric, const std\+::string \&start\+Date, const std\+::string \&end\+Date)
+\item 
+void \mbox{\hyperlink{_air_quality_win_gui_8cpp_afc5aa775b24f7d9876537ceac1eb9a05}{Show\+Offline\+Warning}} ()
+\begin{DoxyCompactList}\small\item\em Pokazuje komunikat o trybie offline. \end{DoxyCompactList}\item 
+LRESULT CALLBACK \mbox{\hyperlink{_air_quality_win_gui_8cpp_a8339626cea1d5bd4312e23cf8c10edbf}{Chart\+Wnd\+Proc}} (HWND hwnd, UINT msg, WPARAM w\+Param, LPARAM l\+Param)
+\begin{DoxyCompactList}\small\item\em Procedura okna wykresu. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{_air_quality_win_gui_8cpp_a7473c7d99c4c887a16a7f2aee01843a9}{Show\+Chart\+Window}} (const std\+::vector$<$ \mbox{\hyperlink{struct_measurement}{Measurement}} $>$ \&data)
+\item 
+LRESULT CALLBACK \mbox{\hyperlink{_air_quality_win_gui_8cpp_a72cc05e3935370a6baf8c76645b5a43b}{Wnd\+Proc}} (HWND hwnd, UINT msg, WPARAM w\+Param, LPARAM l\+Param)
+\item 
+int WINAPI \mbox{\hyperlink{_air_quality_win_gui_8cpp_a6be47ecdf51b4ce9660172fc6d367a5e}{Win\+Main}} (HINSTANCE h\+Instance, HINSTANCE, LPSTR, int n\+Cmd\+Show)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_api_client}{Api\+Client}} \mbox{\hyperlink{_air_quality_win_gui_8cpp_ae905e885ff54123a2d6773a0c852ff4e}{api}}
+\item 
+std\+::vector$<$ \mbox{\hyperlink{struct_station}{Station}} $>$ \mbox{\hyperlink{_air_quality_win_gui_8cpp_a7df668787cb6b6ffbe45528239e5f87d}{stations}}
+\item 
+std\+::vector$<$ \mbox{\hyperlink{struct_measurement}{Measurement}} $>$ \mbox{\hyperlink{_air_quality_win_gui_8cpp_a6913a9e763821ca905cc3e97ee4a462c}{all\+Measurements}}
+\item 
+std\+::vector$<$ std\+::string $>$ \mbox{\hyperlink{_air_quality_win_gui_8cpp_a4ba4775e44aad1e1981808860515f4a2}{available\+Metrics}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Aplikacja do monitorowania jakości powietrza w Polsce. 
+
+Program pobiera dane z API GIOŚ, umożliwia analizę i rysowanie wykresu stężenia mierników. 
+
+\doxysubsection{Macro Definition Documentation}
+\Hypertarget{_air_quality_win_gui_8cpp_a835bc41efa9fc71d0dd286b6fc4db2a6}\index{AirQualityWinGui.cpp@{AirQualityWinGui.cpp}!IDC\_BUTTON\_ANALYZE@{IDC\_BUTTON\_ANALYZE}}
+\index{IDC\_BUTTON\_ANALYZE@{IDC\_BUTTON\_ANALYZE}!AirQualityWinGui.cpp@{AirQualityWinGui.cpp}}
+\doxysubsubsection{\texorpdfstring{IDC\_BUTTON\_ANALYZE}{IDC\_BUTTON\_ANALYZE}}
+{\footnotesize\ttfamily \label{_air_quality_win_gui_8cpp_a835bc41efa9fc71d0dd286b6fc4db2a6} 
+\#define IDC\+\_\+\+BUTTON\+\_\+\+ANALYZE~1003}
+
+\Hypertarget{_air_quality_win_gui_8cpp_a442814053fee5302172ff8f8b02f2af9}\index{AirQualityWinGui.cpp@{AirQualityWinGui.cpp}!IDC\_BUTTON\_CHART@{IDC\_BUTTON\_CHART}}
+\index{IDC\_BUTTON\_CHART@{IDC\_BUTTON\_CHART}!AirQualityWinGui.cpp@{AirQualityWinGui.cpp}}
+\doxysubsubsection{\texorpdfstring{IDC\_BUTTON\_CHART}{IDC\_BUTTON\_CHART}}
+{\footnotesize\ttfamily \label{_air_quality_win_gui_8cpp_a442814053fee5302172ff8f8b02f2af9} 
+\#define IDC\+\_\+\+BUTTON\+\_\+\+CHART~1006}
+
+\Hypertarget{_air_quality_win_gui_8cpp_ab69b125a922699f767357b17ce2f9942}\index{AirQualityWinGui.cpp@{AirQualityWinGui.cpp}!IDC\_COMBO\_METRICS@{IDC\_COMBO\_METRICS}}
+\index{IDC\_COMBO\_METRICS@{IDC\_COMBO\_METRICS}!AirQualityWinGui.cpp@{AirQualityWinGui.cpp}}
+\doxysubsubsection{\texorpdfstring{IDC\_COMBO\_METRICS}{IDC\_COMBO\_METRICS}}
+{\footnotesize\ttfamily \label{_air_quality_win_gui_8cpp_ab69b125a922699f767357b17ce2f9942} 
+\#define IDC\+\_\+\+COMBO\+\_\+\+METRICS~1002}
+
+\Hypertarget{_air_quality_win_gui_8cpp_a80d4e97abdaf4808d6fed8d0f41dc53d}\index{AirQualityWinGui.cpp@{AirQualityWinGui.cpp}!IDC\_COMBO\_STATIONS@{IDC\_COMBO\_STATIONS}}
+\index{IDC\_COMBO\_STATIONS@{IDC\_COMBO\_STATIONS}!AirQualityWinGui.cpp@{AirQualityWinGui.cpp}}
+\doxysubsubsection{\texorpdfstring{IDC\_COMBO\_STATIONS}{IDC\_COMBO\_STATIONS}}
+{\footnotesize\ttfamily \label{_air_quality_win_gui_8cpp_a80d4e97abdaf4808d6fed8d0f41dc53d} 
+\#define IDC\+\_\+\+COMBO\+\_\+\+STATIONS~1001}
+
+\Hypertarget{_air_quality_win_gui_8cpp_ad657c653fcb4637760df6f3c425085df}\index{AirQualityWinGui.cpp@{AirQualityWinGui.cpp}!IDC\_EDIT\_ANALYSIS@{IDC\_EDIT\_ANALYSIS}}
+\index{IDC\_EDIT\_ANALYSIS@{IDC\_EDIT\_ANALYSIS}!AirQualityWinGui.cpp@{AirQualityWinGui.cpp}}
+\doxysubsubsection{\texorpdfstring{IDC\_EDIT\_ANALYSIS}{IDC\_EDIT\_ANALYSIS}}
+{\footnotesize\ttfamily \label{_air_quality_win_gui_8cpp_ad657c653fcb4637760df6f3c425085df} 
+\#define IDC\+\_\+\+EDIT\+\_\+\+ANALYSIS~1005}
+
+\Hypertarget{_air_quality_win_gui_8cpp_a05c15fa479cf9717cb845e66c3c9080f}\index{AirQualityWinGui.cpp@{AirQualityWinGui.cpp}!IDC\_EDIT\_END\_DATE@{IDC\_EDIT\_END\_DATE}}
+\index{IDC\_EDIT\_END\_DATE@{IDC\_EDIT\_END\_DATE}!AirQualityWinGui.cpp@{AirQualityWinGui.cpp}}
+\doxysubsubsection{\texorpdfstring{IDC\_EDIT\_END\_DATE}{IDC\_EDIT\_END\_DATE}}
+{\footnotesize\ttfamily \label{_air_quality_win_gui_8cpp_a05c15fa479cf9717cb845e66c3c9080f} 
+\#define IDC\+\_\+\+EDIT\+\_\+\+END\+\_\+\+DATE~1008}
+
+\Hypertarget{_air_quality_win_gui_8cpp_ac3b839799cb45d091fe3c84e23c08584}\index{AirQualityWinGui.cpp@{AirQualityWinGui.cpp}!IDC\_EDIT\_START\_DATE@{IDC\_EDIT\_START\_DATE}}
+\index{IDC\_EDIT\_START\_DATE@{IDC\_EDIT\_START\_DATE}!AirQualityWinGui.cpp@{AirQualityWinGui.cpp}}
+\doxysubsubsection{\texorpdfstring{IDC\_EDIT\_START\_DATE}{IDC\_EDIT\_START\_DATE}}
+{\footnotesize\ttfamily \label{_air_quality_win_gui_8cpp_ac3b839799cb45d091fe3c84e23c08584} 
+\#define IDC\+\_\+\+EDIT\+\_\+\+START\+\_\+\+DATE~1007}
+
+
+
+\doxysubsection{Function Documentation}
+\Hypertarget{_air_quality_win_gui_8cpp_a8339626cea1d5bd4312e23cf8c10edbf}\index{AirQualityWinGui.cpp@{AirQualityWinGui.cpp}!ChartWndProc@{ChartWndProc}}
+\index{ChartWndProc@{ChartWndProc}!AirQualityWinGui.cpp@{AirQualityWinGui.cpp}}
+\doxysubsubsection{\texorpdfstring{ChartWndProc()}{ChartWndProc()}}
+{\footnotesize\ttfamily \label{_air_quality_win_gui_8cpp_a8339626cea1d5bd4312e23cf8c10edbf} 
+LRESULT CALLBACK Chart\+Wnd\+Proc (\begin{DoxyParamCaption}\item[{HWND}]{hwnd}{, }\item[{UINT}]{msg}{, }\item[{WPARAM}]{w\+Param}{, }\item[{LPARAM}]{l\+Param}{}\end{DoxyParamCaption})}
+
+
+
+Procedura okna wykresu. 
+
+\Hypertarget{_air_quality_win_gui_8cpp_abeb32291888fb01625549172cbf3ff3a}\index{AirQualityWinGui.cpp@{AirQualityWinGui.cpp}!FilterMeasurements@{FilterMeasurements}}
+\index{FilterMeasurements@{FilterMeasurements}!AirQualityWinGui.cpp@{AirQualityWinGui.cpp}}
+\doxysubsubsection{\texorpdfstring{FilterMeasurements()}{FilterMeasurements()}}
+{\footnotesize\ttfamily \label{_air_quality_win_gui_8cpp_abeb32291888fb01625549172cbf3ff3a} 
+std\+::vector$<$ \mbox{\hyperlink{struct_measurement}{Measurement}} $>$ Filter\+Measurements (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{metric}{, }\item[{const std\+::string \&}]{start\+Date}{, }\item[{const std\+::string \&}]{end\+Date}{}\end{DoxyParamCaption})}
+
+Filtruje pomiary według miernika i zakresu dat. 
+\begin{DoxyParams}{Parameters}
+{\em metric} & Nazwa miernika. \\
+\hline
+{\em start\+Date} & Data początkowa. \\
+\hline
+{\em end\+Date} & Data końcowa. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Wektor przefiltrowanych pomiarów. 
+\end{DoxyReturn}
+\Hypertarget{_air_quality_win_gui_8cpp_a01249e44ab718a1fc9ae90e51b25c541}\index{AirQualityWinGui.cpp@{AirQualityWinGui.cpp}!isWithinRange@{isWithinRange}}
+\index{isWithinRange@{isWithinRange}!AirQualityWinGui.cpp@{AirQualityWinGui.cpp}}
+\doxysubsubsection{\texorpdfstring{isWithinRange()}{isWithinRange()}}
+{\footnotesize\ttfamily \label{_air_quality_win_gui_8cpp_a01249e44ab718a1fc9ae90e51b25c541} 
+bool is\+Within\+Range (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{date}{, }\item[{const std\+::string \&}]{start}{, }\item[{const std\+::string \&}]{end}{}\end{DoxyParamCaption})}
+
+Sprawdza, czy data mieści się w zadanym zakresie. 
+\begin{DoxyParams}{Parameters}
+{\em date} & Data pomiaru. \\
+\hline
+{\em start} & Data początkowa. \\
+\hline
+{\em end} & Data końcowa. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true jeśli mieści się w zakresie. 
+\end{DoxyReturn}
+\Hypertarget{_air_quality_win_gui_8cpp_a7473c7d99c4c887a16a7f2aee01843a9}\index{AirQualityWinGui.cpp@{AirQualityWinGui.cpp}!ShowChartWindow@{ShowChartWindow}}
+\index{ShowChartWindow@{ShowChartWindow}!AirQualityWinGui.cpp@{AirQualityWinGui.cpp}}
+\doxysubsubsection{\texorpdfstring{ShowChartWindow()}{ShowChartWindow()}}
+{\footnotesize\ttfamily \label{_air_quality_win_gui_8cpp_a7473c7d99c4c887a16a7f2aee01843a9} 
+void Show\+Chart\+Window (\begin{DoxyParamCaption}\item[{const std\+::vector$<$ \mbox{\hyperlink{struct_measurement}{Measurement}} $>$ \&}]{data}{}\end{DoxyParamCaption})}
+
+Pokazuje nowe okno z wykresem. 
+\begin{DoxyParams}{Parameters}
+{\em data} & Dane pomiarowe do wykresu. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{_air_quality_win_gui_8cpp_afc5aa775b24f7d9876537ceac1eb9a05}\index{AirQualityWinGui.cpp@{AirQualityWinGui.cpp}!ShowOfflineWarning@{ShowOfflineWarning}}
+\index{ShowOfflineWarning@{ShowOfflineWarning}!AirQualityWinGui.cpp@{AirQualityWinGui.cpp}}
+\doxysubsubsection{\texorpdfstring{ShowOfflineWarning()}{ShowOfflineWarning()}}
+{\footnotesize\ttfamily \label{_air_quality_win_gui_8cpp_afc5aa775b24f7d9876537ceac1eb9a05} 
+void Show\+Offline\+Warning (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Pokazuje komunikat o trybie offline. 
+
+\Hypertarget{_air_quality_win_gui_8cpp_a53fe58a967f69dbfc2340f9bb9ca3af7}\index{AirQualityWinGui.cpp@{AirQualityWinGui.cpp}!stringToWstring@{stringToWstring}}
+\index{stringToWstring@{stringToWstring}!AirQualityWinGui.cpp@{AirQualityWinGui.cpp}}
+\doxysubsubsection{\texorpdfstring{stringToWstring()}{stringToWstring()}}
+{\footnotesize\ttfamily \label{_air_quality_win_gui_8cpp_a53fe58a967f69dbfc2340f9bb9ca3af7} 
+std\+::wstring string\+To\+Wstring (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{str}{}\end{DoxyParamCaption})}
+
+Konwertuje std\+::string na std\+::wstring. 
+\begin{DoxyParams}{Parameters}
+{\em str} & Tekst wejściowy UTF-\/8. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Tekst w std\+::wstring. 
+\end{DoxyReturn}
+\Hypertarget{_air_quality_win_gui_8cpp_a6be47ecdf51b4ce9660172fc6d367a5e}\index{AirQualityWinGui.cpp@{AirQualityWinGui.cpp}!WinMain@{WinMain}}
+\index{WinMain@{WinMain}!AirQualityWinGui.cpp@{AirQualityWinGui.cpp}}
+\doxysubsubsection{\texorpdfstring{WinMain()}{WinMain()}}
+{\footnotesize\ttfamily \label{_air_quality_win_gui_8cpp_a6be47ecdf51b4ce9660172fc6d367a5e} 
+int WINAPI Win\+Main (\begin{DoxyParamCaption}\item[{HINSTANCE}]{h\+Instance}{, }\item[{HINSTANCE}]{}{, }\item[{LPSTR}]{}{, }\item[{int}]{n\+Cmd\+Show}{}\end{DoxyParamCaption})}
+
+Punkt wejścia programu Windows. 
+\begin{DoxyParams}{Parameters}
+{\em h\+Instance} & Uchwyt instancji. \\
+\hline
+{\em h\+Prev\+Instance} & Nie używane. \\
+\hline
+{\em lp\+Cmd\+Line} & Parametry linii poleceń. \\
+\hline
+{\em n\+Cmd\+Show} & Tryb wyświetlania. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Kod wyjścia aplikacji. 
+\end{DoxyReturn}
+\Hypertarget{_air_quality_win_gui_8cpp_a72cc05e3935370a6baf8c76645b5a43b}\index{AirQualityWinGui.cpp@{AirQualityWinGui.cpp}!WndProc@{WndProc}}
+\index{WndProc@{WndProc}!AirQualityWinGui.cpp@{AirQualityWinGui.cpp}}
+\doxysubsubsection{\texorpdfstring{WndProc()}{WndProc()}}
+{\footnotesize\ttfamily \label{_air_quality_win_gui_8cpp_a72cc05e3935370a6baf8c76645b5a43b} 
+LRESULT CALLBACK Wnd\+Proc (\begin{DoxyParamCaption}\item[{HWND}]{hwnd}{, }\item[{UINT}]{msg}{, }\item[{WPARAM}]{w\+Param}{, }\item[{LPARAM}]{l\+Param}{}\end{DoxyParamCaption})}
+
+Procedura głównego okna aplikacji. 
+\begin{DoxyParams}{Parameters}
+{\em hwnd} & Uchwyt okna. \\
+\hline
+{\em msg} & Kod wiadomości. \\
+\hline
+{\em w\+Param} & Parametr wiadomości. \\
+\hline
+{\em l\+Param} & Parametr wiadomości. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Wynik przetworzenia wiadomości. 
+\end{DoxyReturn}
+
+
+\doxysubsection{Variable Documentation}
+\Hypertarget{_air_quality_win_gui_8cpp_a6913a9e763821ca905cc3e97ee4a462c}\index{AirQualityWinGui.cpp@{AirQualityWinGui.cpp}!allMeasurements@{allMeasurements}}
+\index{allMeasurements@{allMeasurements}!AirQualityWinGui.cpp@{AirQualityWinGui.cpp}}
+\doxysubsubsection{\texorpdfstring{allMeasurements}{allMeasurements}}
+{\footnotesize\ttfamily \label{_air_quality_win_gui_8cpp_a6913a9e763821ca905cc3e97ee4a462c} 
+std\+::vector$<$\mbox{\hyperlink{struct_measurement}{Measurement}}$>$ all\+Measurements}
+
+\Hypertarget{_air_quality_win_gui_8cpp_ae905e885ff54123a2d6773a0c852ff4e}\index{AirQualityWinGui.cpp@{AirQualityWinGui.cpp}!api@{api}}
+\index{api@{api}!AirQualityWinGui.cpp@{AirQualityWinGui.cpp}}
+\doxysubsubsection{\texorpdfstring{api}{api}}
+{\footnotesize\ttfamily \label{_air_quality_win_gui_8cpp_ae905e885ff54123a2d6773a0c852ff4e} 
+\mbox{\hyperlink{class_api_client}{Api\+Client}} api}
+
+\Hypertarget{_air_quality_win_gui_8cpp_a4ba4775e44aad1e1981808860515f4a2}\index{AirQualityWinGui.cpp@{AirQualityWinGui.cpp}!availableMetrics@{availableMetrics}}
+\index{availableMetrics@{availableMetrics}!AirQualityWinGui.cpp@{AirQualityWinGui.cpp}}
+\doxysubsubsection{\texorpdfstring{availableMetrics}{availableMetrics}}
+{\footnotesize\ttfamily \label{_air_quality_win_gui_8cpp_a4ba4775e44aad1e1981808860515f4a2} 
+std\+::vector$<$std\+::string$>$ available\+Metrics}
+
+\Hypertarget{_air_quality_win_gui_8cpp_a7df668787cb6b6ffbe45528239e5f87d}\index{AirQualityWinGui.cpp@{AirQualityWinGui.cpp}!stations@{stations}}
+\index{stations@{stations}!AirQualityWinGui.cpp@{AirQualityWinGui.cpp}}
+\doxysubsubsection{\texorpdfstring{stations}{stations}}
+{\footnotesize\ttfamily \label{_air_quality_win_gui_8cpp_a7df668787cb6b6ffbe45528239e5f87d} 
+std\+::vector$<$\mbox{\hyperlink{struct_station}{Station}}$>$ stations}
+

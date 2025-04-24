@@ -1,0 +1,16 @@
+.vs/
+x64/
+*.vcxproj.user
+*.vsidx
+*.exe
+*.obj
+*.pdb
+*.log
+*.suo
+*.ipch
+*.db
+*.cache
+*.ilk
+*.tlog
+*.log
+*.json.user

@@ -1,0 +1,1062 @@
+[
+    {
+        "id": 11916,
+        "name": "Augustów, Uzdrowisko",
+        "province": "PODLASKIE"
+    },
+    {
+        "id": 460,
+        "name": "Belsk Duży, IGF PAN",
+        "province": "MAZOWIECKIE"
+    },
+    {
+        "id": 236,
+        "name": "Biała Podlaska, ul. Orzechowa",
+        "province": "LUBELSKIE"
+    },
+    {
+        "id": 609,
+        "name": "Białystok, ul. Warszawska",
+        "province": "PODLASKIE"
+    },
+    {
+        "id": 11174,
+        "name": "Białystok, ul. 42 Pułku Piechoty",
+        "province": "PODLASKIE"
+    },
+    {
+        "id": 11814,
+        "name": "Białystok, al.Piłsudskiego",
+        "province": "PODLASKIE"
+    },
+    {
+        "id": 17658,
+        "name": "Białystok, ul. Upalna",
+        "province": "PODLASKIE"
+    },
+    {
+        "id": 789,
+        "name": "Bielsko-Biała, ul. Kossak-Szczuckiej",
+        "province": "ŚLĄSKIE"
+    },
+    {
+        "id": 10158,
+        "name": "Bielsko-Biała, ul.Partyzantów",
+        "province": "ŚLĄSKIE"
+    },
+    {
+        "id": 950,
+        "name": "Borówiec, ul. Drapałka",
+        "province": "WIELKOPOLSKIE"
+    },
+    {
+        "id": 612,
+        "name": "Borsukowizna, Szkółka Leśna",
+        "province": "PODLASKIE"
+    },
+    {
+        "id": 16413,
+        "name": "Brzeg, ul. Poprzeczna",
+        "province": "OPOLSKIE"
+    },
+    {
+        "id": 156,
+        "name": "Bydgoszcz, pl. Poznański",
+        "province": "KUJAWSKO-POMORSKIE"
+    },
+    {
+        "id": 158,
+        "name": "Bydgoszcz, ul. Warszawska",
+        "province": "KUJAWSKO-POMORSKIE"
+    },
+    {
+        "id": 11576,
+        "name": "Bydgoszcz, ul. Jeździecka",
+        "province": "KUJAWSKO-POMORSKIE"
+    },
+    {
+        "id": 16270,
+        "name": "Bytów, ul. Miła",
+        "province": "POMORSKIE"
+    },
+    {
+        "id": 11360,
+        "name": "Chełm, ul. Połaniecka",
+        "province": "LUBELSKIE"
+    },
+    {
+        "id": 12056,
+        "name": "Chojnów, ul. S. Małachowskiego ",
+        "province": "DOLNOŚLĄSKIE"
+    },
+    {
+        "id": 20209,
+        "name": "Ciechanów, ul. Kraszewskiego",
+        "province": "MAZOWIECKIE"
+    },
+    {
+        "id": 164,
+        "name": "Ciechocinek, ul. Tężniowa",
+        "province": "KUJAWSKO-POMORSKIE"
+    },
+    {
+        "id": 16406,
+        "name": "Cieszyn, ul. Chopina",
+        "province": "ŚLĄSKIE"
+    },
+    {
+        "id": 11,
+        "name": "Czerniawa",
+        "province": "DOLNOŚLĄSKIE"
+    },
+    {
+        "id": 798,
+        "name": "Częstochowa, ul. AK/Jana Pawła II",
+        "province": "ŚLĄSKIE"
+    },
+    {
+        "id": 800,
+        "name": "Częstochowa, ul. Baczyńskiego",
+        "province": "ŚLĄSKIE"
+    },
+    {
+        "id": 805,
+        "name": "Dąbrowa Górnicza, ul. Tysiąclecia",
+        "province": "ŚLĄSKIE"
+    },
+    {
+        "id": 9173,
+        "name": "Dębica, ul.Grottgera",
+        "province": "PODKARPACKIE"
+    },
+    {
+        "id": 882,
+        "name": "Diabla Góra, Puszcza Borecka",
+        "province": "WARMIŃSKO-MAZURSKIE"
+    },
+    {
+        "id": 10093,
+        "name": "Duszniki-Zdrój, ul. Sportowa",
+        "province": "DOLNOŚLĄSKIE"
+    },
+    {
+        "id": 16,
+        "name": "Dzierżoniów, ul. Piłsudskiego",
+        "province": "DOLNOŚLĄSKIE"
+    },
+    {
+        "id": 861,
+        "name": "Elbląg, ul. Bażyńskiego",
+        "province": "WARMIŃSKO-MAZURSKIE"
+    },
+    {
+        "id": 10005,
+        "name": "Ełk, ul. Piłsudskiego",
+        "province": "WARMIŃSKO-MAZURSKIE"
+    },
+    {
+        "id": 291,
+        "name": "Gajew, Ujęcie Wody",
+        "province": "ŁÓDZKIE"
+    },
+    {
+        "id": 729,
+        "name": "Gdańsk, ul. Powstańców Warszawskich",
+        "province": "POMORSKIE"
+    },
+    {
+        "id": 731,
+        "name": "Gdańsk, ul. Wyzwolenia",
+        "province": "POMORSKIE"
+    },
+    {
+        "id": 736,
+        "name": "Gdańsk, ul. Leczkowa",
+        "province": "POMORSKIE"
+    },
+    {
+        "id": 16180,
+        "name": "Gdańsk, Al. Grunwaldzka",
+        "province": "POMORSKIE"
+    },
+    {
+        "id": 20347,
+        "name": "Gdańsk, ul. Lawendowe Wzgórze",
+        "province": "POMORSKIE"
+    },
+    {
+        "id": 732,
+        "name": "Gdynia, ul. Porębskiego",
+        "province": "POMORSKIE"
+    },
+    {
+        "id": 20447,
+        "name": "Giżycko, ul. Wodociągowa",
+        "province": "WARMIŃSKO-MAZURSKIE"
+    },
+    {
+        "id": 809,
+        "name": "Gliwice, ul. Mewy",
+        "province": "ŚLĄSKIE"
+    },
+    {
+        "id": 10018,
+        "name": "Głubczyce, ul. Ratuszowa",
+        "province": "OPOLSKIE"
+    },
+    {
+        "id": 870,
+        "name": "Gołdap, ul. Jaćwieska",
+        "province": "WARMIŃSKO-MAZURSKIE"
+    },
+    {
+        "id": 361,
+        "name": "Gorzów Wlkp. ul. Kosynierów Gdyńskich",
+        "province": "LUBUSKIE"
+    },
+    {
+        "id": 466,
+        "name": "Granica, KPN",
+        "province": "MAZOWIECKIE"
+    },
+    {
+        "id": 142,
+        "name": "Grudziądz, ul. Piłsudskiego",
+        "province": "KUJAWSKO-POMORSKIE"
+    },
+    {
+        "id": 143,
+        "name": "Inowrocław, ul. Solankowa",
+        "province": "KUJAWSKO-POMORSKIE"
+    },
+    {
+        "id": 248,
+        "name": "Jarczew, IMGW",
+        "province": "LUBELSKIE"
+    },
+    {
+        "id": 631,
+        "name": "Jarosław, ul. Pruchnicka",
+        "province": "PODKARPACKIE"
+    },
+    {
+        "id": 638,
+        "name": "Jaslo, ul. Sikorskiego",
+        "province": "PODKARPACKIE"
+    },
+    {
+        "id": 11855,
+        "name": "Jastrzębie-Zdrój, Al.J.Piłsudskiego/Harcerska",
+        "province": "ŚLĄSKIE"
+    },
+    {
+        "id": 9153,
+        "name": "Jelenia Góra, ul. Ogińskiego",
+        "province": "DOLNOŚLĄSKIE"
+    },
+    {
+        "id": 684,
+        "name": "Tarnobrzeg, ul. Dąbrowskiej",
+        "province": "PODKARPACKIE"
+    },
+    {
+        "id": 444,
+        "name": "Tarnów, ul. Bitwy pod Studziankami",
+        "province": "MAŁOPOLSKIE"
+    },
+    {
+        "id": 10120,
+        "name": "Tarnów, ul. Ks. Romana Sitko",
+        "province": "MAŁOPOLSKIE"
+    },
+    {
+        "id": 20277,
+        "name": "Tomaszów Lubelski, ul. Janusza Petera",
+        "province": "LUBELSKIE"
+    },
+    {
+        "id": 145,
+        "name": "Toruń, ul. Wały gen. Sikorskiego",
+        "province": "KUJAWSKO-POMORSKIE"
+    },
+    {
+        "id": 206,
+        "name": "Toruń, ul. Dziewulskiego",
+        "province": "KUJAWSKO-POMORSKIE"
+    },
+    {
+        "id": 208,
+        "name": "Toruń, ul. Przy Kaszowniku",
+        "province": "KUJAWSKO-POMORSKIE"
+    },
+    {
+        "id": 449,
+        "name": "Trzebinia, os. Związku Walki Młodych",
+        "province": "MAŁOPOLSKIE"
+    },
+    {
+        "id": 11934,
+        "name": "Trzebnica, ul. 3 Maja",
+        "province": "DOLNOŚLĄSKIE"
+    },
+    {
+        "id": 841,
+        "name": "Tychy, ul. Tołstoja",
+        "province": "ŚLĄSKIE"
+    },
+    {
+        "id": 842,
+        "name": "Ustroń, ul. Sanatoryjna",
+        "province": "ŚLĄSKIE"
+    },
+    {
+        "id": 17118,
+        "name": "Wysowa-Zdrój, Park Zdrojowy",
+        "province": "MAŁOPOLSKIE"
+    },
+    {
+        "id": 109,
+        "name": "Wałbrzych, ul. Wysockiego",
+        "province": "DOLNOŚLĄSKIE"
+    },
+    {
+        "id": 530,
+        "name": "Warszawa, al. Niepodległości",
+        "province": "MAZOWIECKIE"
+    },
+    {
+        "id": 550,
+        "name": "Warszawa, ul. Wokalna",
+        "province": "MAZOWIECKIE"
+    },
+    {
+        "id": 552,
+        "name": "Warszawa, ul. Kondratowicza",
+        "province": "MAZOWIECKIE"
+    },
+    {
+        "id": 10955,
+        "name": "Warszawa, ul. Chrościckiego",
+        "province": "MAZOWIECKIE"
+    },
+    {
+        "id": 10956,
+        "name": "Warszawa, ul. Bajkowa",
+        "province": "MAZOWIECKIE"
+    },
+    {
+        "id": 16533,
+        "name": "Warszawa, IMGW",
+        "province": "MAZOWIECKIE"
+    },
+    {
+        "id": 961,
+        "name": "Widuchowa",
+        "province": "ZACHODNIOPOMORSKIE"
+    },
+    {
+        "id": 225,
+        "name": "Włocławek, ul. Okrzei",
+        "province": "KUJAWSKO-POMORSKIE"
+    },
+    {
+        "id": 9791,
+        "name": "Włocławek, ul. Kaliska",
+        "province": "KUJAWSKO-POMORSKIE"
+    },
+    {
+        "id": 845,
+        "name": "Wodzisław Śląski, ul. Gałczyńskiego",
+        "province": "ŚLĄSKIE"
+    },
+    {
+        "id": 114,
+        "name": "Wrocław, ul. Bartnicza",
+        "province": "DOLNOŚLĄSKIE"
+    },
+    {
+        "id": 117,
+        "name": "Wrocław, wyb. Conrada-Korzeniowskiego",
+        "province": "DOLNOŚLĄSKIE"
+    },
+    {
+        "id": 129,
+        "name": "Wrocław, al. Wiśniowa",
+        "province": "DOLNOŚLĄSKIE"
+    },
+    {
+        "id": 379,
+        "name": "Wschowa ul. Kazimierza Wielkiego",
+        "province": "LUBUSKIE"
+    },
+    {
+        "id": 17880,
+        "name": "Zabrze, ul. M. Skłodowskiej-Curie",
+        "province": "ŚLĄSKIE"
+    },
+    {
+        "id": 459,
+        "name": "Zakopane, ul. Sienkiewicza",
+        "province": "MAŁOPOLSKIE"
+    },
+    {
+        "id": 285,
+        "name": "Zamość, ul. Hrubieszowska",
+        "province": "LUBELSKIE"
+    },
+    {
+        "id": 11455,
+        "name": "Zawiercie, ul. K.I.Gałczyńskiego",
+        "province": "ŚLĄSKIE"
+    },
+    {
+        "id": 600,
+        "name": "Zdzieszowice, ul. Piastów",
+        "province": "OPOLSKIE"
+    },
+    {
+        "id": 387,
+        "name": "Zielona Góra ul. Krótka",
+        "province": "LUBUSKIE"
+    },
+    {
+        "id": 11294,
+        "name": "Zielona Góra,ul.Wyszyńskiego",
+        "province": "LUBUSKIE"
+    },
+    {
+        "id": 232,
+        "name": "Zielonka, Bory Tucholskie",
+        "province": "KUJAWSKO-POMORSKIE"
+    },
+    {
+        "id": 853,
+        "name": "Złoty Potok, Leśniczówka",
+        "province": "ŚLĄSKIE"
+    },
+    {
+        "id": 382,
+        "name": "Żary, ul. Szymanowskiego ",
+        "province": "LUBUSKIE"
+    },
+    {
+        "id": 562,
+        "name": "Żyrardów, ul. Roosevelta",
+        "province": "MAZOWIECKIE"
+    },
+    {
+        "id": 856,
+        "name": "Żywiec, ul. Kopernika",
+        "province": "ŚLĄSKIE"
+    },
+    {
+        "id": 10119,
+        "name": "Kaszów",
+        "province": "MAŁOPOLSKIE"
+    },
+    {
+        "id": 10834,
+        "name": "Koziegłowy, os.Leśne",
+        "province": "WIELKOPOLSKIE"
+    },
+    {
+        "id": 10874,
+        "name": "Florianka, RPN",
+        "province": "LUBELSKIE"
+    },
+    {
+        "id": 11434,
+        "name": "Zabierzów, ul. Wapienna",
+        "province": "MAŁOPOLSKIE"
+    },
+    {
+        "id": 11754,
+        "name": "Gołuchów, Ujęcie Wody",
+        "province": "ŚWIĘTOKRZYSKIE"
+    },
+    {
+        "id": 12138,
+        "name": "Łagów, ul. Zapłotnia",
+        "province": "ŚWIĘTOKRZYSKIE"
+    },
+    {
+        "id": 10817,
+        "name": "Złockie, szkoła podstawowa",
+        "province": "MAŁOPOLSKIE"
+    },
+    {
+        "id": 9913,
+        "name": "Guty Duże",
+        "province": "MAZOWIECKIE"
+    },
+    {
+        "id": 11457,
+        "name": "Goczałkowice Zdrój, ul. Parkowa",
+        "province": "ŚLĄSKIE"
+    },
+    {
+        "id": 11358,
+        "name": "Biała, ul. Kmicica",
+        "province": "MAZOWIECKIE"
+    },
+    {
+        "id": 16495,
+        "name": "Mosina, ul. Czereśniowa",
+        "province": "WIELKOPOLSKIE"
+    },
+    {
+        "id": 952,
+        "name": "Kalisz, ul. Wyszyńskiego",
+        "province": "WIELKOPOLSKIE"
+    },
+    {
+        "id": 814,
+        "name": "Katowice, ul. Kossutha",
+        "province": "ŚLĄSKIE"
+    },
+    {
+        "id": 17318,
+        "name": "Katowice, ul. Dudy-Gracza",
+        "province": "ŚLĄSKIE"
+    },
+    {
+        "id": 568,
+        "name": "Kędzierzyn-Koźle, ul. Śmiałego",
+        "province": "OPOLSKIE"
+    },
+    {
+        "id": 11195,
+        "name": "Kielce, ul. Targowa",
+        "province": "ŚWIĘTOKRZYSKIE"
+    },
+    {
+        "id": 16196,
+        "name": "Kielce, ul. Warszawska 108",
+        "province": "ŚWIĘTOKRZYSKIE"
+    },
+    {
+        "id": 16497,
+        "name": "Kielce, ul. Jurajska",
+        "province": "ŚWIĘTOKRZYSKIE"
+    },
+    {
+        "id": 577,
+        "name": "Kluczbork, ul. Mickiewicza",
+        "province": "OPOLSKIE"
+    },
+    {
+        "id": 38,
+        "name": "Kłodzko, ul. Szkolna",
+        "province": "DOLNOŚLĄSKIE"
+    },
+    {
+        "id": 20200,
+        "name": "Kolbuszowa, ul. Jana Pawła II",
+        "province": "PODKARPACKIE"
+    },
+    {
+        "id": 10934,
+        "name": "Kołobrzeg, ul. Żółkiewskiego",
+        "province": "ZACHODNIOPOMORSKIE"
+    },
+    {
+        "id": 190,
+        "name": "Koniczynka, Pojezierze Chełmińskie",
+        "province": "KUJAWSKO-POMORSKIE"
+    },
+    {
+        "id": 902,
+        "name": "Konin, ul. Wyszyńskiego",
+        "province": "WIELKOPOLSKIE"
+    },
+    {
+        "id": 16271,
+        "name": "Konstancin-Jeziorna, ul. Żeromskiego",
+        "province": "MAZOWIECKIE"
+    },
+    {
+        "id": 966,
+        "name": "Koszalin, ul. Armii Krajowej",
+        "province": "ZACHODNIOPOMORSKIE"
+    },
+    {
+        "id": 11336,
+        "name": "Koszalin, ul. Chopina",
+        "province": "ZACHODNIOPOMORSKIE"
+    },
+    {
+        "id": 740,
+        "name": "Kościerzyna, ul. Targowa",
+        "province": "POMORSKIE"
+    },
+    {
+        "id": 400,
+        "name": "Kraków, Aleja Krasińskiego",
+        "province": "MAŁOPOLSKIE"
+    },
+    {
+        "id": 401,
+        "name": "Kraków, ul. Bujaka",
+        "province": "MAŁOPOLSKIE"
+    },
+    {
+        "id": 402,
+        "name": "Kraków, ul. Bulwarowa",
+        "province": "MAŁOPOLSKIE"
+    },
+    {
+        "id": 10123,
+        "name": "Kraków, ul. Złoty Róg",
+        "province": "MAŁOPOLSKIE"
+    },
+    {
+        "id": 10139,
+        "name": "Kraków, os. Piastów",
+        "province": "MAŁOPOLSKIE"
+    },
+    {
+        "id": 10447,
+        "name": "Kraków, os. Wadów",
+        "province": "MAŁOPOLSKIE"
+    },
+    {
+        "id": 11303,
+        "name": "Kraków, os. Swoszowice",
+        "province": "MAŁOPOLSKIE"
+    },
+    {
+        "id": 16896,
+        "name": "Kraków, ul. Kamieńskiego",
+        "province": "MAŁOPOLSKIE"
+    },
+    {
+        "id": 20367,
+        "name": "Kraków, ul. Półłanki",
+        "province": "MAŁOPOLSKIE"
+    },
+    {
+        "id": 16913,
+        "name": "Krapkowice, ul. 3 Maja",
+        "province": "OPOLSKIE"
+    },
+    {
+        "id": 9175,
+        "name": "Krempna, Ośrodek edukacyjno-muzealny MPN",
+        "province": "PODKARPACKIE"
+    },
+    {
+        "id": 646,
+        "name": "Krosno, ul. Kletówki",
+        "province": "PODKARPACKIE"
+    },
+    {
+        "id": 20307,
+        "name": "Krotoszyn, ul. Olimpijska",
+        "province": "WIELKOPOLSKIE"
+    },
+    {
+        "id": 946,
+        "name": "Piaski, Krzyżówka",
+        "province": "WIELKOPOLSKIE"
+    },
+    {
+        "id": 471,
+        "name": "Legionowo, ul. Zegrzyńska",
+        "province": "MAZOWIECKIE"
+    },
+    {
+        "id": 52,
+        "name": "Legnica, al. Rzeczypospolitej",
+        "province": "DOLNOŚLĄSKIE"
+    },
+    {
+        "id": 742,
+        "name": "Lębork, ul. Malczewskiego",
+        "province": "POMORSKIE"
+    },
+    {
+        "id": 743,
+        "name": "Liniewko Kościerskie",
+        "province": "POMORSKIE"
+    },
+    {
+        "id": 20468,
+        "name": "Lubań, ul. Ludowa",
+        "province": "DOLNOŚLĄSKIE"
+    },
+    {
+        "id": 266,
+        "name": "Lublin, ul. Obywatelska",
+        "province": "LUBELSKIE"
+    },
+    {
+        "id": 11278,
+        "name": "Lubliniec, ul. ks. Szymały",
+        "province": "ŚLĄSKIE"
+    },
+    {
+        "id": 11554,
+        "name": "Łask, ul. Narutowicza",
+        "province": "ŁÓDZKIE"
+    },
+    {
+        "id": 750,
+        "name": "Łeba, IMGW",
+        "province": "POMORSKIE"
+    },
+    {
+        "id": 618,
+        "name": "Łomża, ul. Sikorskiego",
+        "province": "PODLASKIE"
+    },
+    {
+        "id": 295,
+        "name": "Łódź, ul. Czernika",
+        "province": "ŁÓDZKIE"
+    },
+    {
+        "id": 296,
+        "name": "Łódź, ul. Gdańska",
+        "province": "ŁÓDZKIE"
+    },
+    {
+        "id": 10058,
+        "name": "Łódź, al. Jana Pawła II",
+        "province": "ŁÓDZKIE"
+    },
+    {
+        "id": 741,
+        "name": "Malbork, ul. Mickiewicza",
+        "province": "POMORSKIE"
+    },
+    {
+        "id": 10794,
+        "name": "Małogoszcz, ul. Słoneczna",
+        "province": "ŚWIĘTOKRZYSKIE"
+    },
+    {
+        "id": 10438,
+        "name": "Mielec, ul. Biernackiego",
+        "province": "PODKARPACKIE"
+    },
+    {
+        "id": 16753,
+        "name": "Myślenice",
+        "province": "MAŁOPOLSKIE"
+    },
+    {
+        "id": 9798,
+        "name": "Nakło nad Notecią, ul. Św. Wawrzyńca",
+        "province": "KUJAWSKO-POMORSKIE"
+    },
+    {
+        "id": 455,
+        "name": "Niepołomice, ul. 3 Maja",
+        "province": "MAŁOPOLSKIE"
+    },
+    {
+        "id": 659,
+        "name": "Nisko, ul. Szklarniowa",
+        "province": "PODKARPACKIE"
+    },
+    {
+        "id": 11254,
+        "name": "Nowa Ruda, ul. Jeziorna",
+        "province": "DOLNOŚLĄSKIE"
+    },
+    {
+        "id": 16613,
+        "name": "Nowa Sól",
+        "province": "LUBUSKIE"
+    },
+    {
+        "id": 769,
+        "name": "Nowiny, ul. Parkowa",
+        "province": "ŚWIĘTOKRZYSKIE"
+    },
+    {
+        "id": 426,
+        "name": "Nowy Sącz, ul. Nadbrzeżna",
+        "province": "MAŁOPOLSKIE"
+    },
+    {
+        "id": 16894,
+        "name": "Nowy Targ, al. Tysiąclecia ",
+        "province": "MAŁOPOLSKIE"
+    },
+    {
+        "id": 20387,
+        "name": "Nysa, ul. Rodziewiczówny 1",
+        "province": "OPOLSKIE"
+    },
+    {
+        "id": 584,
+        "name": "Olesno, ul. Słowackiego",
+        "province": "OPOLSKIE"
+    },
+    {
+        "id": 11301,
+        "name": "Olkusz, ul. Cegielniana",
+        "province": "MAŁOPOLSKIE"
+    },
+    {
+        "id": 877,
+        "name": "Olsztyn, ul. Puszkina",
+        "province": "WARMIŃSKO-MAZURSKIE"
+    },
+    {
+        "id": 70,
+        "name": "Oława, ul. Żołnierzy Armii Krajowej",
+        "province": "DOLNOŚLĄSKIE"
+    },
+    {
+        "id": 590,
+        "name": "Opole, os. Armii Krajowej",
+        "province": "OPOLSKIE"
+    },
+    {
+        "id": 10374,
+        "name": "Opole, ul. Koszyka",
+        "province": "OPOLSKIE"
+    },
+    {
+        "id": 74,
+        "name": "Osieczów",
+        "province": "DOLNOŚLĄSKIE"
+    },
+    {
+        "id": 9114,
+        "name": "Ostrołęka, ul. Hallera",
+        "province": "MAZOWIECKIE"
+    },
+    {
+        "id": 10030,
+        "name": "Ostróda, ul. Piłsudskiego",
+        "province": "WARMIŃSKO-MAZURSKIE"
+    },
+    {
+        "id": 10814,
+        "name": "Oświęcim, ul. J. Bema",
+        "province": "MAŁOPOLSKIE"
+    },
+    {
+        "id": 485,
+        "name": "Otwock, ul. Brzozowa",
+        "province": "MAZOWIECKIE"
+    },
+    {
+        "id": 314,
+        "name": "Pabianice, ul. Konstantynowska",
+        "province": "ŁÓDZKIE"
+    },
+    {
+        "id": 319,
+        "name": "Parzniewice, Ujęcie Wody",
+        "province": "ŁÓDZKIE"
+    },
+    {
+        "id": 488,
+        "name": "Piastów, ul. Pułaskiego",
+        "province": "MAZOWIECKIE"
+    },
+    {
+        "id": 920,
+        "name": "Pila, ul. Kusocińskiego",
+        "province": "WIELKOPOLSKIE"
+    },
+    {
+        "id": 322,
+        "name": "Piotrków Trybunalski, ul. Krakowskie Przedmieście",
+        "province": "ŁÓDZKIE"
+    },
+    {
+        "id": 9218,
+        "name": "Pleszew, Al. Mickiewicza",
+        "province": "WIELKOPOLSKIE"
+    },
+    {
+        "id": 497,
+        "name": "Płock, ul. Królowej Jadwigi",
+        "province": "MAZOWIECKIE"
+    },
+    {
+        "id": 501,
+        "name": "Płock, ul. Reja",
+        "province": "MAZOWIECKIE"
+    },
+    {
+        "id": 778,
+        "name": "Połaniec, ul. Ruszczańska",
+        "province": "ŚWIĘTOKRZYSKIE"
+    },
+    {
+        "id": 944,
+        "name": "Poznań, ul. Dąbrowskiego",
+        "province": "WIELKOPOLSKIE"
+    },
+    {
+        "id": 16493,
+        "name": "Poznań ul. Szwajcarska",
+        "province": "WIELKOPOLSKIE"
+    },
+    {
+        "id": 665,
+        "name": "Przemyśl, ul. Grunwaldzka",
+        "province": "PODKARPACKIE"
+    },
+    {
+        "id": 10446,
+        "name": "Rabka-Zdrój, ul. Orkana",
+        "province": "MAŁOPOLSKIE"
+    },
+    {
+        "id": 11794,
+        "name": "Racibórz, Wojska Polskiego",
+        "province": "ŚLĄSKIE"
+    },
+    {
+        "id": 515,
+        "name": "Radom, ul. Tochtermana",
+        "province": "MAZOWIECKIE"
+    },
+    {
+        "id": 331,
+        "name": "Radomsko, ul. Rolna",
+        "province": "ŁÓDZKIE"
+    },
+    {
+        "id": 834,
+        "name": "Rybnik, ul. Borki",
+        "province": "ŚLĄSKIE"
+    },
+    {
+        "id": 10414,
+        "name": "Rymanów Zdrój, ul. Parkowa",
+        "province": "PODKARPACKIE"
+    },
+    {
+        "id": 671,
+        "name": "Rzeszów, ul. Rejtana",
+        "province": "PODKARPACKIE"
+    },
+    {
+        "id": 10125,
+        "name": "Rzeszów, ul. Piłsudskiego",
+        "province": "PODKARPACKIE"
+    },
+    {
+        "id": 17179,
+        "name": "Rzeszów, ul. Starzyńskiego",
+        "province": "PODKARPACKIE"
+    },
+    {
+        "id": 20201,
+        "name": "Rzeszów, ul. Kwiatkowskiego",
+        "province": "PODKARPACKIE"
+    },
+    {
+        "id": 678,
+        "name": "Sanok, ul. Sadowa",
+        "province": "PODKARPACKIE"
+    },
+    {
+        "id": 517,
+        "name": "Siedlce, ul. Konarskiego",
+        "province": "MAZOWIECKIE"
+    },
+    {
+        "id": 17758,
+        "name": "Skarżysko-Kamienna, ul. 1 Maja",
+        "province": "ŚWIĘTOKRZYSKIE"
+    },
+    {
+        "id": 437,
+        "name": "Skawina, os. Ogrody",
+        "province": "MAŁOPOLSKIE"
+    },
+    {
+        "id": 725,
+        "name": "Słupsk, ul. Kniaziewicza",
+        "province": "POMORSKIE"
+    },
+    {
+        "id": 374,
+        "name": "Smolary Bytnickie",
+        "province": "LUBUSKIE"
+    },
+    {
+        "id": 16242,
+        "name": "Sopot, ul. Bitwy Pod Płowcami",
+        "province": "POMORSKIE"
+    },
+    {
+        "id": 837,
+        "name": "Sosnowiec, ul. Lubelska",
+        "province": "ŚLĄSKIE"
+    },
+    {
+        "id": 785,
+        "name": "Starachowice, ul. Złota",
+        "province": "ŚWIĘTOKRZYSKIE"
+    },
+    {
+        "id": 10124,
+        "name": "Sucha Beskidzka, ul. Nieszczyńskiej",
+        "province": "MAŁOPOLSKIE"
+    },
+    {
+        "id": 16238,
+        "name": "Sulechów, ul. Licealna",
+        "province": "LUBUSKIE"
+    },
+    {
+        "id": 376,
+        "name": "Sulęcin ul. Dudka",
+        "province": "LUBUSKIE"
+    },
+    {
+        "id": 11154,
+        "name": "Suwałki, ul. Pułaskiego 26",
+        "province": "PODLASKIE"
+    },
+    {
+        "id": 9179,
+        "name": "Szarów, ul. Spokojna",
+        "province": "MAŁOPOLSKIE"
+    },
+    {
+        "id": 986,
+        "name": "Szczecin, ul. Andrzejewskiego",
+        "province": "ZACHODNIOPOMORSKIE"
+    },
+    {
+        "id": 987,
+        "name": "Szczecin, ul. Piłsudskiego",
+        "province": "ZACHODNIOPOMORSKIE"
+    },
+    {
+        "id": 989,
+        "name": "Szczecin, ul. Łączna",
+        "province": "ZACHODNIOPOMORSKIE"
+    },
+    {
+        "id": 983,
+        "name": "Szczecinek, ul. Przemysłowa",
+        "province": "ZACHODNIOPOMORSKIE"
+    },
+    {
+        "id": 443,
+        "name": "Szymbark",
+        "province": "MAŁOPOLSKIE"
+    },
+    {
+        "id": 12038,
+        "name": "Świecie, al. Jana Pawła II",
+        "province": "KUJAWSKO-POMORSKIE"
+    },
+    {
+        "id": 20160,
+        "name": "Świnoujście, ul. Białoruska",
+        "province": "ZACHODNIOPOMORSKIE"
+    }
+]

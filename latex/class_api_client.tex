@@ -1,0 +1,124 @@
+\doxysection{Api\+Client Class Reference}
+\hypertarget{class_api_client}{}\label{class_api_client}\index{ApiClient@{ApiClient}}
+
+
+Klasa do komunikacji z API GIOŚ oraz zarządzania danymi lokalnymi.  
+
+{\ttfamily \#include $<$Api\+Client.\+h$>$}
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+std\+::string \mbox{\hyperlink{class_api_client_a31c77a540ec44e30b4386d5b0664de50}{get\+All\+Stations\+Raw}} ()
+\begin{DoxyCompactList}\small\item\em Pobiera wszystkie stacje pomiarowe jako surowy JSON (string). \end{DoxyCompactList}
+
+\item 
+std\+::vector$<$ \mbox{\hyperlink{struct_station}{Station}} $>$ \mbox{\hyperlink{class_api_client_abfea4e3ec12a59d0f7fe183418b97ac9}{get\+All\+Stations}} ()
+\begin{DoxyCompactList}\small\item\em Pobiera i przetwarza listę stacji pomiarowych. \end{DoxyCompactList}
+
+\item 
+std\+::vector$<$ int $>$ \mbox{\hyperlink{class_api_client_a84bc534be6eba4f6e8437906a802062c}{get\+Sensor\+Ids\+For\+Station}} (int station\+Id)
+\begin{DoxyCompactList}\small\item\em Pobiera identyfikatory czujników dla danej stacji. \end{DoxyCompactList}
+
+\item 
+std\+::vector$<$ \mbox{\hyperlink{struct_measurement}{Measurement}} $>$ \mbox{\hyperlink{class_api_client_a80e376d3930f69439a37b796a7b45e15}{get\+Measurements\+For\+Station}} (int station\+Id)
+\begin{DoxyCompactList}\small\item\em Pobiera dane pomiarowe dla wszystkich czujników stacji. \end{DoxyCompactList}
+
+\item 
+bool \mbox{\hyperlink{class_api_client_ab66ff72cb9f8e780d9fcb306cf64936c}{save\+Stations\+To\+File}} (const std\+::vector$<$ \mbox{\hyperlink{struct_station}{Station}} $>$ \&stations, const std\+::string \&filename)
+\begin{DoxyCompactList}\small\item\em Zapisuje listę stacji do pliku JSON. \end{DoxyCompactList}
+
+\item 
+std\+::vector$<$ \mbox{\hyperlink{struct_station}{Station}} $>$ \mbox{\hyperlink{class_api_client_a7a4e0753f16547a30749ddc3da24cfc5}{load\+Stations\+From\+File}} (const std\+::string \&filename)
+\begin{DoxyCompactList}\small\item\em Wczytuje stacje z pliku JSON. \end{DoxyCompactList}
+
+\item 
+bool \mbox{\hyperlink{class_api_client_a934c65274654e2ddb5858a333f20e55d}{save\+Measurements\+To\+File}} (const std\+::vector$<$ \mbox{\hyperlink{struct_measurement}{Measurement}} $>$ \&measurements, const std\+::string \&station\+Id, const std\+::string \&filename)
+\begin{DoxyCompactList}\small\item\em Zapisuje dane pomiarowe danej stacji do pliku JSON (jako podklucz). \end{DoxyCompactList}
+
+\item 
+std\+::vector$<$ \mbox{\hyperlink{struct_measurement}{Measurement}} $>$ \mbox{\hyperlink{class_api_client_a69976cba3ccc337111884f4d32887f0e}{load\+Measurements\+From\+File}} (const std\+::string \&station\+Id, const std\+::string \&filename)
+\begin{DoxyCompactList}\small\item\em Wczytuje dane pomiarowe z pliku JSON dla podanej stacji. \end{DoxyCompactList}
+\end{DoxyCompactItemize}
+
+\doxysubsection{Detailed Description}
+Klasa do komunikacji z API GIOŚ oraz zarządzania danymi lokalnymi. 
+
+\doxysubsection{Member Function Documentation}
+
+\Hypertarget{class_api_client_abfea4e3ec12a59d0f7fe183418b97ac9}
+\index{ApiClient@{ApiClient}!getAllStations@{getAllStations}}
+\begin{DoxyReturn}{Returns}
+Wektor obiektów \doxylink{struct_station}{Station}. 
+\end{DoxyReturn}
+
+\Hypertarget{class_api_client_a31c77a540ec44e30b4386d5b0664de50}
+\index{ApiClient@{ApiClient}!getAllStationsRaw@{getAllStationsRaw}}
+\begin{DoxyReturn}{Returns}
+Zawartość odpowiedzi JSON jako std\+::string (lub "{}\{\}"{} jeśli błąd). 
+\end{DoxyReturn}
+
+\Hypertarget{class_api_client_a80e376d3930f69439a37b796a7b45e15}
+\index{ApiClient@{ApiClient}!getMeasurementsForStation@{getMeasurementsForStation}}
+\begin{DoxyParams}{Parameters}
+{\em stationId} & Identyfikator stacji. \\
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Lista pomiarów. 
+\end{DoxyReturn}
+
+\Hypertarget{class_api_client_a84bc534be6eba4f6e8437906a802062c}
+\index{ApiClient@{ApiClient}!getSensorIdsForStation@{getSensorIdsForStation}}
+\begin{DoxyParams}{Parameters}
+{\em stationId} & Identyfikator stacji. \\
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Lista ID czujników. 
+\end{DoxyReturn}
+
+\Hypertarget{class_api_client_a69976cba3ccc337111884f4d32887f0e}
+\index{ApiClient@{ApiClient}!loadMeasurementsFromFile@{loadMeasurementsFromFile}}
+\begin{DoxyParams}{Parameters}
+{\em stationId} & Klucz stacji w pliku. \\
+{\em filename} & Ścieżka do pliku. \\
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Lista pomiarów. 
+\end{DoxyReturn}
+
+\Hypertarget{class_api_client_a7a4e0753f16547a30749ddc3da24cfc5}
+\index{ApiClient@{ApiClient}!loadStationsFromFile@{loadStationsFromFile}}
+\begin{DoxyParams}{Parameters}
+{\em filename} & Ścieżka do pliku. \\
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Lista wczytanych stacji. 
+\end{DoxyReturn}
+
+\Hypertarget{class_api_client_a934c65274654e2ddb5858a333f20e55d}
+\index{ApiClient@{ApiClient}!saveMeasurementsToFile@{saveMeasurementsToFile}}
+\begin{DoxyParams}{Parameters}
+{\em measurements} & Lista pomiarów. \\
+{\em stationId} & ID stacji (klucz w pliku JSON). \\
+{\em filename} & Ścieżka do pliku JSON. \\
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true jeśli zapis się powiódł, false w przeciwnym razie. 
+\end{DoxyReturn}
+
+\Hypertarget{class_api_client_ab66ff72cb9f8e780d9fcb306cf64936c}
+\index{ApiClient@{ApiClient}!saveStationsToFile@{saveStationsToFile}}
+\begin{DoxyParams}{Parameters}
+{\em stations} & Wektor stacji. \\
+{\em filename} & Nazwa pliku. \\
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true jeśli zapisano poprawnie. 
+\end{DoxyReturn}
+
+\vspace{1em}
+\textbf{Źródło:}
+\begin{DoxyCompactItemize}
+\item \texttt{ApiClient.h}
+\item \texttt{ApiClient.cpp}
+\end{DoxyCompactItemize}

@@ -18,7 +18,7 @@ Data: 2025-22-04
 
 Uruchomienie:
 1. Otwórz projekt w Visual Studio 2022 (lub nowszym)
-2. Upewnij się, że środowisko obsługuje C++17
+2. Upewnij się, że środowisko obsługuje C++14
 3. Zainstaluj zależności przez vcpkg (patrz: requirements.txt)
 4. Zbuduj i uruchom aplikację
 

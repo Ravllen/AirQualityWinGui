@@ -19,10 +19,10 @@ Data: 2025-22-04
 Uruchomienie:
 1. Otwórz projekt w Visual Studio 2022 (lub nowszym)
 2. Upewnij się, że środowisko obsługuje C++14
-3. Zainstaluj zależności przez vcpkg (patrz: requirements.txt)
+3. Zainstaluj zależności przez vcpkg 
 4. Zbuduj i uruchom aplikację
 
 Pliki źródłowe:
 - AirQualityWinGui.cpp – GUI i logika główna
 - ApiClient.cpp/h – obsługa API i plików lokalnych
-- dane.json / stations.json – lokalna baza danych (opcjonalnie)
+- dane.json / stations.json – lokalna baza danych 
